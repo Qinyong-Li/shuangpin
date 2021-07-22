@@ -1,0 +1,29 @@
+' @startuml "01背包"
+' footer "01背包算法流程图"
+' start
+' :初始化二维数组dp;
+' :i=1;
+' while (i<values.length ?)
+'     : j=0;
+
+'     while (j<j_max ?)
+'         if (j>value[i]?) then (yes)
+'             : dp[i][j]=max(dp[i-1][j],dp[i-1][j-weight[i]]+value[i]);
+'         else (no)
+'             : dp[i][j]=dp[i-1][j];
+'         endif
+'     endwhile
+
+' endwhile 
+' end
+' @enduml
+
+
+@startuml "整体流程图"
+start
+: 统计复合音节的出现次数;
+: 将复合音节分为差值最小的两组;
+: 将两组复合音节分别映射到键盘的左右手区域的按键;
+: 保存映射关系，完成编码;
+end
+@enduml

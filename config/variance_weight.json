@@ -1,0 +1,8 @@
+{
+    "top_key": ["q","w","e","r","t","y","u","i","o","p"],
+    "mid_key": ["a","s","d","f","g","h","j","k","l"],
+    "bottom_key": ["z","x","c","v","b","n","m"],
+    "top_weight": 0.05,
+    "mid_weight": 0.03,
+    "bottom_weight": 0.09
+}
